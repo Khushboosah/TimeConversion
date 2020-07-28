@@ -31,7 +31,7 @@ $ source env/bin/activate
 $ pip install Flask==1.0.2 Flask-Cors==3.0.7
 ```
 
-#### Run folliwng command 
+#### Run following command 
 ```
 (env)$ python app.py
 ```
@@ -57,23 +57,23 @@ Vue CLI v3.7.0
 ? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? In package.json
 ? Save this as a preset for future projects? (y/N) No
 ```
-### Install the axios library to send AJAX requests
+#### Install the axios library to send AJAX requests
 ```
 $ npm install axios@0.18.0 --save
 ```
 
-### First navigate to "client" directory then run below command, which compiles and hot-reloads for development
+#### First navigate to "client" directory then run below command, which compiles and hot-reloads for development
 ```
 npm run serve
 ```
-### To avoid prettier's unneccessary errors and warning, use following command
+#### To avoid prettier's unneccessary errors and warning, use following command
 ```
 npm run serve --fix
 ```
 
 ### In the browser http://localhost:8080
-### On load you will see this page 
+#### On load you will see this page 
 ![Before image](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.47.33%20PM.png)
 
-### Post selection of timezone you should see below updated page 
+#### Post selection of timezone you should see below updated page 
 ![After image](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.48.10%20PM.png)
