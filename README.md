@@ -5,6 +5,9 @@ The project is developed using Python running on Flask as the API backend.
 The front-end is in vue.js.
 
 ## Project setup
+```
+install npm
+```
 
 #### Steps to create "server" enviornment
 ```
@@ -18,7 +21,6 @@ $ pip install Flask==1.0.2 Flask-Cors==3.0.7
 ```
 
 ### Vue Setup
-#### Install npm and run following commands
 
 #### Steps to create vue client
 ```
