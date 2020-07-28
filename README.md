@@ -5,22 +5,8 @@ The project is developed using Python running on Flask as the API backend.
 The front-end is in vue.js.
 
 ## Project setup
-```
-npm install
-```
-### Create parent directory TimeZoneConversion
-```
-$ mkdir TimeZoneConversion
-$ cd TimeZoneConversion
-```
 
-### Flask Setup
-#### In the TimeZoneConversion directory create another folder "server"
-```
-$ mkdir server
-```
-
-#### Inside "server" directory
+#### Steps to create "server" enviornment
 ```
 $ python3.7 -m venv env
 $ source env/bin/activate
@@ -31,19 +17,12 @@ $ source env/bin/activate
 $ pip install Flask==1.0.2 Flask-Cors==3.0.7
 ```
 
-#### Run following command 
-```
-(env)$ python app.py
-```
-
 ### Vue Setup
+#### Install npm and run following commands
+
+#### Steps to create vue client
 ```
 npm install -g @vue/cli@3.7.0
-```
-
-#### create Vue "client"
-```
-$ vue create client
 ```
 
 #### Use the down arrow key to highlight "Manually select features", and then press enter. select "Babel", "Router", and "Linter / Formatter"
@@ -62,7 +41,16 @@ Vue CLI v3.7.0
 $ npm install axios@0.18.0 --save
 ```
 
-#### First navigate to "client" directory then run below command, which compiles and hot-reloads for development
+### Steps to run the Projects
+
+#### Checkout this git repository 
+
+#### Open a terminal.Navigate to server folder. Run the following command 
+```
+(env)$ python app.py
+```
+
+#### Open a terminal.Navigate to "client" directory then run below command, which compiles and hot-reloads for development
 ```
 npm run serve
 ```
