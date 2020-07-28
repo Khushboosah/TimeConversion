@@ -4,7 +4,9 @@
         <br>
         <p> {{msg}} : {{timestamp}}</p>
         <br><br>
+        <!-- <p> Select a timezone </p> -->
         <select v-model="tz" class="select-css">
+          <option value="">Select a timezone...</option>
           <option v-for="t in timeZones" :key="t">{{ t }}</option>
         </select>
         &nbsp;
@@ -26,12 +28,12 @@ export default {
       timestamp: '',
       timeZones: [],
       tz: '',
-      msg: 'Your Local Time',
+      msg: 'Current Local Time',
     };
   },
   methods: {
     getLocalTime() {
-      const path = 'http://localhost:5000/get_new_time';
+      const path = 'http://localhost:5000';
       axios.get(path)
         .then((res) => {
           this.timestamp = res.data.current_time;
@@ -46,7 +48,7 @@ export default {
       axios.get(path)
         .then((res) => {
           this.timestamp = res.data.current_time;
-          this.msg = 'Your Selected New Time';
+          this.msg = 'The Selected New Time';
         })
         .catch((error) => {
           console.error(error);

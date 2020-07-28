@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/get_new_time',
+    path: '/',
     name: 'CurrentTime',
     component: CurrentTime,
   },

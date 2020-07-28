@@ -16,7 +16,7 @@ app.config.from_object(__name__)
 CORS(app, resources={r'/*': {'origins': '*'}})
 
 
-@app.route('/get_new_time', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def convert_time():
     current_time = datetime.now().astimezone().strftime("%H:%M:%S %Z")
     return jsonify({

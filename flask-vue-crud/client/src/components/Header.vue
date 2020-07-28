@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-    <h1>Current Time Of Timezones</h1>
+    <h1>Current Time Of Different Timezones</h1>
     </header>
 </template>
 
