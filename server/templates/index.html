@@ -1,0 +1,8 @@
+<template id="task-template"></template>
+  <h4>Select New Timezone</h4>
+    <select name="timezones" id="timezones">
+     {% for tz in time_zones%}
+       <option>{{tz}}</option>
+     {% endfor %}
+    </select>
+</template>
