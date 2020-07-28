@@ -86,5 +86,5 @@ npm run test
 npm run lint
 ```
 
-![Before image](https://github.com/Khushboosah/TimeConversion/blob/master/flask-vue-crud/client/src/assets/Screen%20Shot%202020-07-27%20at%208.47.33%20PM.png)
-![After image](https://github.com/Khushboosah/TimeConversion/blob/master/flask-vue-crud/client/src/assets/Screen%20Shot%202020-07-27%20at%208.48.10%20PM.png)
+![Before image](https://github.com/Khushboosah/TimeConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.47.33%20PM.png)
+![After image](https://github.com/Khushboosah/TimeConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.48.10%20PM.png)
