@@ -68,8 +68,8 @@ npm run serve --fix
 ```
 
 ### In the browser http://localhost:8080
-###** On load you will see this page **
+### ** On load you will see this page **
 ![Before image](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.47.33%20PM.png)
 
-###** Post selection of timezone you should see below updated page **
+### ** Post selection of timezone you should see below updated page **
 ![After image](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.48.10%20PM.png)
