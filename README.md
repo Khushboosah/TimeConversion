@@ -65,5 +65,8 @@ npm run serve --fix
 #### On load you will see this page 
 ![Before image](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.47.33%20PM.png)
 
+#### Make a selection on given list of Timezones
+![list of timezones](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-28%20at%205.41.14%20PM.png)
+
 #### Post selection of timezone you should see below updated page 
 ![After image](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.48.10%20PM.png)
