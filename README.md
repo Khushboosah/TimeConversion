@@ -69,4 +69,4 @@ npm run serve --fix
 ![list of timezones](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-28%20at%205.41.14%20PM.png)
 
 #### Post selection of timezone you should see below updated page 
-![After image](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-27%20at%208.48.10%20PM.png)
+![After image](https://github.com/Khushboosah/TimeZoneConversion/blob/master/client/src/assets/Screen%20Shot%202020-07-28%20at%205.46.21%20PM.png)
